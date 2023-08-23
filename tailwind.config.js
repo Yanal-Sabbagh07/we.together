@@ -26,8 +26,12 @@ module.exports = {
         "green-plant": "url('/images/green-plant.jpeg')",
         "green-roud": "url('/images/green-roud.jpeg')",
         "friends-back": "url('/images/friends-back.jpeg')",
-
+        "woman-laptop": "url('/images/woman-laptop.jpeg')",
+        "friends-4": "url('/images/friends-4.jpeg')",
+        interview: "url('/images/interview.jpeg')",
         group: "url('/images/group.jpeg')",
+        pink: "url('/images/pink.jpeg')",
+        hands: "url('/images/hands.jpeg')",
         companies: "url('/images/companies.png')",
         Logo: "url('/images/logo.png')",
       },
