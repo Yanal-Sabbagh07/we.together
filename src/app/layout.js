@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="font-Helvetica w-full overflow-x-hidden">
+      <body className="font-Helvetica w-full ">
         <div className=" hidden lg:flex items-center justify-center border">
           <Navbar />
         </div>
