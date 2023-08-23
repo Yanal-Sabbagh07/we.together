@@ -1,9 +1,15 @@
-import React from "react";
-import Mession from "./Mession";
+"use client";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <div className="pt-10">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      transition={{ duration: 0.75 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 20 }}
+      className="pt-10"
+    >
       <div className="w-full h-full flex flex-col items-center justify-start">
         <h4 className="text-text-primary text-[64px] text-center w-[700px] leading-[76px] mb-8">
           Wir demokratisieren Selbsthilfegruppen
@@ -26,7 +32,7 @@ const HeroSection = () => {
           <div className="bg-woman-laptop bg-cover rounded-lg w-[320px] h-full"></div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,8 +1,16 @@
+"use client";
+import { motion } from "framer-motion";
 import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-[calc(100vh-65px)] ">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      transition={{ duration: 0.75 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 20 }}
+      className="min-h-[calc(100vh-65px)] "
+    >
       <div className="w-full h-[614px] mt-8 flex items-start justify-between">
         <div className="max-w-[570px]  h-full flex flex-col gap-10 justify-center">
           <h1 className="text-[64px] text-text-primary">
@@ -31,7 +39,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.div>
   );
 };
 

@@ -1,7 +1,7 @@
 import Funktioniert from "@/components/home/Funktioniert";
 import Gefördert from "@/components/home/GefördertSection";
 import Group from "@/components/home/Group";
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "@/components/home/HeroSection";
 import Pricing from "@/components/home/Pricing";
 import SelfHelp from "@/components/home/SelfHelp";
 

@@ -1,4 +1,5 @@
 import Contact from "@/components/about/Contact";
+
 import HeroSection from "@/components/about/HeroSection";
 import Mession from "@/components/about/Mession";
 import React from "react";
