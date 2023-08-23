@@ -7,7 +7,7 @@ import SelfHelp from "@/components/home/SelfHelp";
 
 export default function Home() {
   return (
-    <main className="flex min-h-[calc(100vh-65px)] flex-col items-center justify-between ">
+    <main className=" flex min-h-[calc(100vh-65px)] flex-col items-center justify-between overflow-x-hidden ">
       <HeroSection />
       <Gefördert />
       <Funktioniert />

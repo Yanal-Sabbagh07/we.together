@@ -4,8 +4,10 @@ import React from "react";
 const GroupCard = ({ img, link }) => {
   return (
     <div>
-      <div className={`${img} bg-cover w-[304px] h-[288px]  mb-8`}></div>
-      <div className=" w-[304px] flex items-center gap-4">
+      <div
+        className={`${img} mb-4 h-[288px] w-[90vw] bg-cover lg:mb-8 lg:w-[304px]`}
+      ></div>
+      <div className=" flex w-[90vw] items-center gap-4 lg:w-[304px]">
         <Link href="/">{link}</Link>
         <svg
           xmlns="http://www.w3.org/2000/svg"

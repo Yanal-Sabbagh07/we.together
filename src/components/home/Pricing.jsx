@@ -3,21 +3,21 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="w-[1312px] bg-light-yellow rounded-lg mb-[88px] pt-10 pb-10 ">
-      <div className=" w-full  h-[334px] flex flex-col items-center justify-start ">
-        <h4 className="text-2xl font-bold text-text-primary mb-2 ">
+    <div className="mb-16 w-full rounded-lg bg-light-yellow pb-10 pt-10 lg:mb-[88px] lg:w-[1312px]">
+      <div className=" flex  h-[334px] w-full flex-col items-center justify-start ">
+        <h4 className="mb-2 text-center text-2xl font-bold text-text-primary ">
           Ein monatlicher Preis - unlimitierter Zugang zu Gruppen
         </h4>
-        <p className="w-[640px] text-center text-text-primary mb-8">
+        <p className="mb-8 text-center text-text-primary lg:w-[640px]">
           Teste 5 Gruppen-Termine jetzt kostenlos, danach kannst Du für 19,95 €
           / Monat an unbegrenzt vielen Gruppen teilnehmen.
         </p>
-        <div className="w-[454px] h-[104px] border border-brand-secondary rounded-lg bg-brand-white flex items-center justify-center gap-6 mb-2">
-          <div className="h-full  flex items-center justify-evenly">
-            <div className="w-[53.5px] h-[53.5px] flex items-center justify-center bg-tree bg-cover bg-light-yellow rounded-full"></div>
+        <div className="mb-2 flex h-[104px] w-[90%] items-center justify-center gap-6 rounded-lg border border-brand-secondary bg-brand-white lg:w-[454px]">
+          <div className="flex  h-full items-center justify-evenly">
+            <div className="flex h-[53.5px] w-[53.5px] items-center justify-center rounded-full bg-light-yellow bg-tree bg-cover"></div>
           </div>
           <div>
-            <h4 className="text-text-primary font-bold text-2xl">
+            <h4 className="text-2xl font-bold text-text-primary">
               5 Teilnahmen kostenlos
             </h4>
             <p>Danach 19,95 € / Monat. Jederzeit kündbar</p>
@@ -26,13 +26,13 @@ const Pricing = () => {
         <div className="mb-8">
           <p>
             We.together ist kostenlos für Gruppenmoderatoren
-            <Link href="/" className="text-brand-primary font-semibold">
+            <Link href="/" className="font-semibold text-brand-primary">
               {"  "}- Jetzt mehr erfahren.
             </Link>
           </p>
         </div>
         <div className="">
-          <button className="w-[150px] h-10 bg-brand-primary text-brand-white rounded tracking-wide">
+          <button className="h-10 w-[150px] rounded bg-brand-primary tracking-wide text-brand-white">
             Jetzt testen
           </button>
         </div>

@@ -5,10 +5,10 @@ const GroupCard = ({ img, title, text }) => {
   return (
     <div className="w-[395px]">
       <div
-        className={`${img} bg-cover w-full h-[317px]  mb-8 rounded-lg`}
+        className={`${img} mb-4 h-[317px] w-full  rounded-lg bg-cover lg:mb-8`}
       ></div>
-      <div className=" w-[304px] flex items-center gap-4">
-        <h4 className="text-2xl font-bold text-text-primary mb-[12px]">
+      <div className=" flex w-[93vw] items-center gap-4 lg:w-[304px]">
+        <h4 className="mb-[12px] text-2xl font-bold text-text-primary">
           {title}
         </h4>
       </div>

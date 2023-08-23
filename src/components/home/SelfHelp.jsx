@@ -3,13 +3,13 @@ import SelfHelpCard from "@/components/home/SelfHelpCard";
 const Group = () => {
   return (
     <>
-      <div className="mb-[88px] w-[1312px] h-[591px]  flex flex-col justify-start ">
+      <div className=" mb-16 flex w-full flex-col justify-start lg:mb-[88px]  lg:h-[591px] lg:w-[1312px]">
         <div className="mb-10">
-          <h3 className="text-text-primary text-[28px] font-bold">
+          <h3 className="text-[24px] font-bold text-text-primary lg:text-[28px]">
             Gemeinsam Selbsthilfe ermöglichen
           </h3>
         </div>
-        <div className="flex gap-16">
+        <div className="flex gap-10 overflow-y-hidden overflow-x-scroll lg:gap-16 lg:overflow-x-hidden">
           <SelfHelpCard
             img="bg-green-plant"
             title="Depressionsgruppen"

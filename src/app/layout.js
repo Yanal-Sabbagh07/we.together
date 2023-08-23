@@ -15,11 +15,11 @@ export default function RootLayout({ children }) {
         <div className=" hidden lg:flex items-center justify-center border">
           <Navbar />
         </div>
-        <div className=" flex lg:hidden ">
+        <div className=" flex lg:hidden fixed left-0 top-0 w-screen ">
           <MobileNav />
         </div>
         <div className=" flex items-center justify-center ">
-          <div className="hidden w-[calc(100vw-24px)] lg:block lg:w-[calc(100vw-128px)] ">
+          <div className=" lg:bg-transparent w-[calc(100vw-24px)] lg:block lg:w-[calc(100vw-128px)] ">
             {children}
           </div>
         </div>

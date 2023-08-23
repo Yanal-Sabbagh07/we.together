@@ -2,27 +2,27 @@ import React from "react";
 import Vorteil from "./Vorteil";
 const Gefördert = () => {
   return (
-    <div className="w-[1312px]">
-      <div className="w-full h-[184px] mb-[88px]">
+    <div className="mb-16 w-full lg:mb-0 lg:w-[1312px]">
+      <div className=" h-full w-full  lg:mb-[88px] lg:h-[184px]">
         <div>
-          <h1 className="text-[32px] text-black text-left font-black">
+          <h1 className="text-left text-[22px] font-semibold text-black lg:text-[32px] lg:font-black">
             Gefördert durch
           </h1>
         </div>
-        <div className="w-[1308px] h-[94px] bg-companies bg-cover"></div>
+        <div className="mb-16 h-[42px] w-full bg-companies bg-contain bg-no-repeat lg:mb-0 lg:h-[94px] lg:w-[1308px]"></div>
       </div>
-      <div className="w-full  flex items-center justify-center bg-light-blue tracking-wider rounded-xl mb-[88px]">
-        <p className="w-[670px] text-[32px] text-center font-normal text-[#fcfcfc] pt-16 pb-16">
+      <div className="mb-16 flex  w-full items-center justify-center rounded-xl bg-light-blue tracking-wider lg:mb-[88px]">
+        <p className="w-95% pb-16 pt-16 text-center text-[20px] font-normal text-[#fcfcfc] lg:w-[670px] lg:text-[32px]">
           In der von Adrian gegründeten Gruppe, spricht Torsten über seine
           Panikattacken und Merve fühlt sich endlich verstanden.
         </p>
       </div>
       <div>
-        <div className="w-full h-[387px] mb-[88px]  flex flex-col justify-between">
-          <h1 className="text-[32px] text-black text-left font-black">
+        <div className=" flex w-full flex-col  justify-between   lg:mb-[88px] lg:h-[387px]">
+          <h1 className="mb-8 text-left text-[24px] font-black text-black lg:mb-0 lg:text-[32px]">
             Deine Vorteile mit we.together
           </h1>
-          <div className=" flex flex-wrap justify-between items-start gap-12">
+          <div className=" flex flex-wrap items-start justify-between gap-12 lg:gap-12">
             <Vorteil
               number="01"
               header="Fortlaufende Gruppen"
