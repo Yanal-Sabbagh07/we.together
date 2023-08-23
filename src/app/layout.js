@@ -11,15 +11,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="font-Helvetica w-full ">
-        <div className=" hidden lg:flex items-center justify-center border">
+      <body className="w-full font-Helvetica ">
+        <div className=" hidden items-center justify-center border lg:flex">
           <Navbar />
         </div>
-        <div className=" flex lg:hidden fixed left-0 top-0 w-screen ">
+        <div className=" fixed left-0 top-0 flex w-screen lg:hidden ">
           <MobileNav />
         </div>
         <div className=" flex items-center justify-center ">
-          <div className=" lg:bg-transparent w-[calc(100vw-24px)] lg:block lg:w-[calc(100vw-128px)] ">
+          <div className=" w-[calc(100vw-24px)] lg:block lg:w-[calc(100vw-128px)] lg:bg-transparent ">
             {children}
           </div>
         </div>

@@ -2,15 +2,14 @@ import Contact from "@/components/about/Contact";
 
 import HeroSection from "@/components/about/HeroSection";
 import Mession from "@/components/about/Mession";
-import React from "react";
 
 const page = () => {
   return (
-    <div className="min-h-[calc(100vh-64px)]  w-full">
+    <main className=" flex min-h-[calc(100vh-65px)] flex-col items-center justify-between overflow-x-hidden ">
       <HeroSection />
       <Mession />
       <Contact />
-    </div>
+    </main>
   );
 };
 
