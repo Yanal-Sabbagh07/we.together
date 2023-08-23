@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 const Footer = () => {
   return (
-    <div className="w-full h-[292px] flex items-center justify-center border-t ">
+    <div className="w-full h-[292px] hidden lg:flex items-center justify-center border-t ">
       <div className="w-[calc(100%-180px)] flex items-center justify-between">
         <div className="bg-Logo w-[117px] h-[55px] bg-contain bg-no-repeat"></div>
 

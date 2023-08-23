@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="h-16 w-[calc(100vw-48px)]  text-base flex items-center justify-between font-base  ">
+    <div className=" hidden h-16 w-[calc(100vw-48px)]  text-base lg:flex items-center justify-between font-base  ">
       <div className="w-[1124px] h-[41px] flex items-center justify-between">
         <div className="h-full flex items-center justify-start gap-8 tracking-wider text-text-primary ">
           <Link className="hover:font-bold" href="/">
@@ -32,7 +32,7 @@ const Navbar = () => {
           placeholder="Gruppe suchen"
         />
       </div>
-      <div className="flex items-center justify-between gap-10">
+      <div className="flex items-center justify-between gap-3">
         <Link className="w-[73px] h-6 hover:font-bold" href="/">
           Anmelden
         </Link>
