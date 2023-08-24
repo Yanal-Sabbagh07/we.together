@@ -8,28 +8,28 @@ const HeroSection = () => {
       transition={{ duration: 0.75 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 20 }}
-      className="pt-10"
+      className="mt-20 w-full lg:mt-10"
     >
-      <div className="w-full h-full flex flex-col items-center justify-start">
-        <h4 className="text-text-primary text-[64px] text-center w-[700px] leading-[76px] mb-8">
+      <div className="flex h-full  flex-col items-center justify-start">
+        <h4 className="mb-8 w-[340px] text-center text-[32px] font-bold text-text-primary lg:w-[700px] lg:text-[64px] lg:leading-[76px]">
           Wir demokratisieren Selbsthilfegruppen
         </h4>
-        <p className="w-[700px] text-center text-xl mb-12">
+        <p className="mb-8 text-center text-xl lg:mb-12  lg:w-[700px]">
           Gemeinsam haben wir es uns zur Aufgabe gemacht Menschen in schwierigen
           Lebenssituationen zu unterstützen und haben damit auch eine
           Lebensaufgabe gewählt.
         </p>
-        <div className="w-full h-[303px] flex justify-between mb-[88px]">
-          <div className="bg-mom-daughter bg-cover rounded-lg w-[320px] h-full"></div>
-          <div className="  w-[320px] h-full flex flex-col justify-between">
-            <div className="w-full h-[208px] bg-friends-4 bg-cover rounded-lg"></div>
-            <div className="w-full h-[83px] bg-light-blue rounded-lg"></div>
+        <div className="mb-16 flex h-[205px] w-full justify-between lg:mb-[88px] lg:h-[303px]">
+          <div className="hidden h-full  bg-mom-daughter bg-cover lg:block lg:w-[320px] "></div>
+          <div className="  flex h-full w-[38%] flex-col justify-between  lg:w-[320px]  ">
+            <div className="h-[160px] w-full rounded bg-friends-4 bg-cover bg-center lg:h-[208px] lg:rounded-lg"></div>
+            <div className=" h-[40px] w-full rounded bg-light-blue lg:h-[83px] lg:rounded-lg"></div>
           </div>
-          <div className=" w-[320px] h-full flex flex-col justify-between">
-            <div className="w-full h-[88px] bg-light-yellow rounded-lg"></div>
-            <div className="w-full h-[203px] bg-interview bg-cover rounded-lg"></div>
+          <div className=" flex h-full  w-[60%] flex-col justify-between lg:w-[320px]">
+            <div className="h-[50px] w-full rounded bg-light-yellow lg:h-[88px] lg:rounded-lg"></div>
+            <div className="h-[150px] w-full rounded bg-interview bg-cover bg-center bg-no-repeat lg:h-[203px] lg:rounded-lg"></div>
           </div>
-          <div className="bg-woman-laptop bg-cover rounded-lg w-[320px] h-full"></div>
+          <div className="hidden h-full w-[320px] rounded-lg bg-woman-laptop bg-cover lg:block"></div>
         </div>
       </div>
     </motion.div>

@@ -45,7 +45,7 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
             href="/"
             className={pathname === "/" ? "active-mobile" : "navlink"}
           >
-            Preisübersicht Über uns
+            Preisübersicht
           </Link>
         </li>
         <li className="">
@@ -57,13 +57,13 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
           </Link>
         </li>
         <li>
-          <Link className="w-[73px] h-6 hover:font-bold" href="/">
+          <Link className="h-6 w-[73px] hover:font-bold" href="/">
             Anmelden
           </Link>
         </li>
         <li>
           <Link
-            className="w-[115px] h-8 border flex items-center justify-center bg-[#A64D79] text-[#fcfcfc] rounded hover:bg-[#954573]"
+            className="flex h-8 w-[115px] items-center justify-center rounded border bg-[#A64D79] text-[#fcfcfc] hover:bg-[#954573]"
             href="/"
           >
             Mitglied werden
